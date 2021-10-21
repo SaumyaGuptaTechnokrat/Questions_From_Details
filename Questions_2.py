@@ -4,7 +4,6 @@ import pandas as pd
 st.title("REGISTRATION PAGE")
 
 
-st.image("Hockey.jpg")
 
 name = st.text_input("Enter Your Name:")
 id_1 = st.number_input("Enter Phone Number: ")    
