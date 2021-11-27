@@ -12,7 +12,7 @@ if button_1:
     st.header( f'Hello!! {name}.So Your Question is as below:- ')
 df = pd.read_csv("C_4.csv")
 
-for i in range(0,34):
+for i in range(0,57):
     if name==df.iloc[i].NAME_OF_PARTICIPANTS and id_1==df.iloc[i].PHONE_NO:
         st.header(df.iloc[i].QUESTIONS)
 st.header('*Compulsory Submissions:- ')
